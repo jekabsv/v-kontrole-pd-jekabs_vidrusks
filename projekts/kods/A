@@ -1,0 +1,12 @@
+#include <iostream>
+#include <string>
+
+int main()
+{
+    std::string s = R"(Kad skolēni sabojā git projektu: "Nu ko… laiks jaunam klonam.")";
+    int rez = 0;
+    for(auto x : s)
+        if(x == 'a')
+            rez++;
+    std::cout << rez;
+}
