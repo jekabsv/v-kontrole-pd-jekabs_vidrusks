@@ -1,0 +1,6 @@
+#include <iostream>
+
+int main()
+{
+	std::cout << "Dzīve nekādā veidā nav iedomājama bez git";
+}

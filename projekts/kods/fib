@@ -1,0 +1,5 @@
+fib = [0, 1]
+for _ in range(98):
+    fib.append(fib[-1] + fib[-2])
+for n in reversed(fib):
+    print(n)
